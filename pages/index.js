@@ -26,7 +26,7 @@ export async function getStaticProps() {
     },
     body: JSON.stringify({
       query: `query {
-        repository(owner:"chibicode", name:"reactions") {
+        repository(owner:"mconnor", name:"reactions") {
           issue(number:1) {
             reactionGroups {
               content
